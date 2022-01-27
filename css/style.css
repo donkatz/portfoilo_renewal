@@ -1,0 +1,33 @@
+/*  nor  */
+html,ul,li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+div {
+  display: block;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/*  lib  */
+:root {
+  --site-width : 1440px;
+}
+
+.container {
+  max-width: var(--site-width);
+  margin: 0 auto;
+}
+
+/*  cus  */
