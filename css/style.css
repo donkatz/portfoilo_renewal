@@ -30,7 +30,6 @@ div {
   margin: 0 auto;
   width: 100%;
   height: 100%;
-  border: 1px solid red;
 }
 
 @font-face {
@@ -50,10 +49,10 @@ body {
   margin: 0 auto;
 }
 
+/* 인트로 */
 #intro {
   max-width: 100%;
   height: 1024px;
-  border: 1px solid blue;
 }
 
 #intro .container {
@@ -64,7 +63,7 @@ body {
 #intro .container .intro_txt .title {
   position: absolute;
   top: 404px;
-  left: 949px;
+  left: 976px;
   font-size: 50px;
   line-height: 60px;
 }
@@ -86,13 +85,13 @@ body {
 }
 #intro .container .intro_txt .name {
   position: absolute;
-  top: 132px;
-  left: 1108px;
+  top: 94px;
+  left: 1133px;
 }
 #intro .container .intro_txt .job {
   position: absolute;
   top: 373px;
-  left: 913px;
+  left: 940px;
 }
 
 #intro .container .intro_bg {
@@ -101,25 +100,72 @@ body {
 
 #intro .container .intro_bg .box01 {
   position: absolute;
-  width: 430px;
-  height: 600px;
+  width: 460px;
+  height: 640px;
   background-color: rgb(233, 233, 233);
-  top: 166px;
-  left: 316px;
+  top: 126px;
+  left: 313px;
   z-index: 2;
 }
 
 #intro .container .intro_bg .box02 {
   position: absolute;
-  width: 400px;
-  height: 454px;
+  width: 460px;
+  height: 640px;
   background-color: #4b4b4b;
-  top: 402px;
-  left: 226px;
+  top: 246px;
+  left: 193px;
 }
 
 #intro .container .intro_bg .bar {
   position: absolute;
-  top: 126px;
-  left: 746px;
+  top: 86px;
+  left: 773px;
+}
+
+/* 컨텐츠 */
+#contants {
+  max-width: 100%;
+}
+
+#contants .container {
+  position: relative;
+}
+
+/* 컨텐츠01 */
+#contants .container .contant01 {}
+
+#contants .container .contant01 .con_box {}
+#contants .container .contant01 .con_box .box01 {
+  position: absolute;
+  top: 100px;
+  left: 102px;
+  width: 460px;
+  height: 640px;
+  background-color: #777;
+
+}
+#contants .container .contant01 .con_box .box02 {
+  position: absolute;
+  top: 481px;
+  left: 562px;
+  width: 566px;
+  height: 200px;
+  background-color: #666;
+}
+#contants .container .contant01 .con_box .box03 {
+  position: absolute;
+  top: 740px;
+  left: 622px;
+  width: 818px;
+  height: 300px;
+  background-color: #555;
+}
+
+/* 바 */
+#contants .container .bar {
+  position: absolute;
+  top: 0;
+  left: 1121px;
+  z-index: -1;
 }
