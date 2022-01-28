@@ -1,5 +1,5 @@
 /*  nor  */
-html,ul,li {
+body,ul,li {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -10,14 +10,14 @@ a {
   color: inherit;
 }
 
-div {
-  display: block;
-}
-
 *,
 *::after,
 *::before {
   box-sizing: border-box;
+}
+
+div {
+  display: block;
 }
 
 /*  lib  */
@@ -28,6 +28,98 @@ div {
 .container {
   max-width: var(--site-width);
   margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url(../font/Roboto/Roboto-Regular.ttf);
+}
+
+body {
+  font-family: 'Roboto-Regular';
 }
 
 /*  cus  */
+
+#wrap {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#intro {
+  max-width: 100%;
+  height: 1024px;
+  border: 1px solid blue;
+}
+
+#intro .container {
+  position: relative;
+}
+
+#intro .container .intro_txt {}
+#intro .container .intro_txt .title {
+  position: absolute;
+  top: 404px;
+  left: 949px;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+#intro .container .intro_txt .title li {}
+
+#intro .container .intro_txt .title .first {
+  letter-spacing: 20px;
+}
+#intro .container .intro_txt .title .second {
+  letter-spacing: 24px;
+}
+#intro .container .intro_txt .title .third {
+  letter-spacing: 33px;
+}
+
+#intro .container .intro_txt .small {
+  font-size: 16px;
+}
+#intro .container .intro_txt .name {
+  position: absolute;
+  top: 132px;
+  left: 1108px;
+}
+#intro .container .intro_txt .job {
+  position: absolute;
+  top: 373px;
+  left: 913px;
+}
+
+#intro .container .intro_bg {
+  width: 100%;
+}
+
+#intro .container .intro_bg .box01 {
+  position: absolute;
+  width: 430px;
+  height: 600px;
+  background-color: rgb(233, 233, 233);
+  top: 166px;
+  left: 316px;
+  z-index: 2;
+}
+
+#intro .container .intro_bg .box02 {
+  position: absolute;
+  width: 400px;
+  height: 454px;
+  background-color: #4b4b4b;
+  top: 402px;
+  left: 226px;
+}
+
+#intro .container .intro_bg .bar {
+  position: absolute;
+  top: 126px;
+  left: 746px;
+}
