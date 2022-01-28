@@ -162,6 +162,61 @@ body {
   background-color: #555;
 }
 
+#contants .container .contant01 .con_box .box04 {
+  position: absolute;
+  width: 960px;
+  height: 232px;
+  top: 1192px;
+  left: 168px;
+  background-color: #666;
+  opacity: 0.2;
+  display: flex;
+  justify-content: space-around;
+}
+
+#contants .container .contant01 .con_box .box04 .con {
+  width: 150px;
+  height: 150px;
+  background-color: #999;
+}
+#contants .container .contant01 .con_box .box04 .con01 {}
+#contants .container .contant01 .con_box .box04 .con02 {}
+#contants .container .contant01 .con_box .box04 .con03 {}
+#contants .container .contant01 .con_box .box04 .con04 {}
+#contants .container .contant01 .con_box .box04 .con05 {}
+#contants .container .contant01 .con_box .box04 .con06 {}
+
+#contants .container .contant01 .con_box .con_bar {
+  position: absolute;
+  top: 1192px;
+  left: 143px;
+  width: 5px;
+  height: 232px;
+  background-color: #333;
+}
+
+#contants .container .contant01 .con_box .con_tit {
+  position: absolute;
+  top: 1342px;
+  left: 54px;
+  font-size: 24px;
+  transform: rotate(-90deg);
+  font-weight: 700;
+  color: #333;
+}
+
+/* 컨텐츠02 */
+#contants .container .contant02 {
+  height: 4000px;
+}
+
+#contants .container .contant02 .container .bar {
+  position: absolute;
+  top: 1624px;
+  left: 1129px;
+}
+
+
 /* 바 */
 #contants .container .bar {
   position: absolute;
