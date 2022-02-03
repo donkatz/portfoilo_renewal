@@ -134,6 +134,11 @@ body {
 
 /* 컨텐츠01 */
 #contants .container .contant01 {}
+#contants .container .contant01 .con_tit {
+  position: absolute;
+  top: 82px;
+  left: 1134px;
+}
 
 #contants .container .contant01 .con_box {}
 #contants .container .contant01 .con_box .box01 {
@@ -149,9 +154,10 @@ body {
   position: absolute;
   top: 481px;
   left: 562px;
-  width: 566px;
+  width: 567px;
   height: 200px;
   background-color: #666;
+  opacity: 0.2;
 }
 #contants .container .contant01 .con_box .box03 {
   position: absolute;
@@ -164,7 +170,7 @@ body {
 
 #contants .container .contant01 .con_box .box04 {
   position: absolute;
-  width: 960px;
+  width: 961px;
   height: 232px;
   top: 1192px;
   left: 168px;
@@ -210,7 +216,13 @@ body {
   height: 4000px;
 }
 
-#contants .container .contant02 .container .bar {
+#contants .container .contant02 .con02_tit {
+  position: absolute;
+  top: 1728px;
+  left: 1134px;
+}
+
+#contants .container .contant02 .bar {
   position: absolute;
   top: 1624px;
   left: 1129px;
